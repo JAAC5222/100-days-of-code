@@ -6,3 +6,9 @@ https://drive.google.com/uc?export=download&id=1eIZt2TeFGVrk4nXkx8E_5Slw2coEcOUo
 
 ### Demo Project
 If you right-click on [solution.py](course://Day 15/Coffee Machine Project/solution.py) in the file navigator, you can "Run solution" without opening the file. You'll be able to test out the functionality in the output area and refer to the PDF to confirm all the functionality.
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 15/Coffee Machine Project/main.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

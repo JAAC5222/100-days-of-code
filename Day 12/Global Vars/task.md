@@ -17,3 +17,9 @@ def my_function():
     a += 1
     print(a)
 ```
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 12/Global Vars/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

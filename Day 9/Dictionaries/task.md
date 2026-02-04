@@ -44,3 +44,9 @@ This is how to loop through a dictionary and print all the values:
 for key in colours:
     print(colours[key])
 ```
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 9/Dictionaries/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

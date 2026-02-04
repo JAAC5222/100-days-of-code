@@ -13,3 +13,9 @@ There are a couple of things that are the same in most IDEs which you should be 
 
 ### PAUSE 1
 Use the PyCharm debugger to figure out what is the issue in the starting code and fix it.
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 13/Use a Debugger/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

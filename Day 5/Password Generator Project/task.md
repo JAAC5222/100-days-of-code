@@ -38,3 +38,9 @@ The essential skill of a good programmer is using Google to find what you need. 
 <div class="hint">
   Try googling: "How to shuffle items in a List in Python"
 </div>
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 5/Password Generator Project/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

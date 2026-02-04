@@ -72,3 +72,9 @@ travel_log = {
    },
 }
 ```
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 9/Nested Lists and Dictionaries/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

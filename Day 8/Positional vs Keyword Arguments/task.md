@@ -49,3 +49,9 @@ Call the `greet_with()` function using keyword arguments.
 greet_with(location="London", name="Angela")
 </code>
 </div>
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 8/Positional vs Keyword Arguments/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

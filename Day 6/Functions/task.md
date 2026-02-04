@@ -35,3 +35,9 @@ What is your name? #I type Angela
 Hello
 Angela
 ```
+
+---
+## Function Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 6/Functions/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

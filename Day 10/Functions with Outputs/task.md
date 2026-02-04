@@ -17,3 +17,9 @@ def function_name(input_parameter):
 
 ### Print vs. Output
 Return vs. Display: The return statement is used to give back a value from a function, which can be used later, while print is used to display a value to the console only for the programmer to see.
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 10/Functions with Outputs/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

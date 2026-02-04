@@ -21,3 +21,9 @@ print("My name is " + name)
 ## Demo:
 [Try it out first here](https://appbrewery.github.io/python-day1-demo/)
 
+---
+
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 1/task/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

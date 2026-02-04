@@ -52,3 +52,8 @@ What happens if you try to shift the letter 'z' forwards by 9? Can you fix the c
 3. You can use the modulo to get the remainder.
 </div>
 
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 8/Caesar Cipher 1/main.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

@@ -22,3 +22,9 @@ def my_function(num):
     """Multiplies a number by itself."""
     return num * num
 ```
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 10/Docstrings/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

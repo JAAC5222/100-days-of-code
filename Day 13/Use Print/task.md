@@ -6,3 +6,9 @@ Diagnose the problem using `print()` statements.
 
 ### PAUSE 2
 Fix the code.
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 13/Use Print/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

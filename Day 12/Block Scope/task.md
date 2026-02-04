@@ -17,3 +17,9 @@ for _ in range(10):
     my_block_var = 3
 
 ```
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 12/Block Scope/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

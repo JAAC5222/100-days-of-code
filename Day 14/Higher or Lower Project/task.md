@@ -7,3 +7,8 @@ https://www.higherlowergame.com/
 https://appbrewery.github.io/python-day14-demo/
 
 
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 14/Higher or Lower Project/main.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

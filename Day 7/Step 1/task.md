@@ -28,3 +28,8 @@ Check if the letter the user guessed `guess` is one of the letters in the `chose
 </div>
 
 
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 7/task/main.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

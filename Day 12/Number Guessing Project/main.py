@@ -36,4 +36,3 @@ while True:
         print("\n" * 20)
     else:
         break
-

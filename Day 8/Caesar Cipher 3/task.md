@@ -30,3 +30,9 @@ If they type 'yes' then ask them for the direction/text/shift again and call the
 <div class="hint">
   Try creating a while loop that continues to execute the program if the user types 'yes'.
 </div>
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 8/Caesar Cipher 3/main.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```

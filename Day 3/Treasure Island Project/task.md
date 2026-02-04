@@ -15,3 +15,9 @@ Alternatively you can also use the logical operator "or" to check for other spel
 
 ### Demo
 https://appbrewery.github.io/python-day3-demo/
+
+---
+## Solution Code
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("Day 3/Treasure Island Project/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
+```
