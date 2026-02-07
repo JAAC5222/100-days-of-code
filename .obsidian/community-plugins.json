@@ -16,5 +16,8 @@
   "code-files",
   "embed-code-file",
   "dataview",
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian",
+  "3d-graph",
+  "notebook-navigator"
 ]
