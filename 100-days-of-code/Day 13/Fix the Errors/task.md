@@ -15,8 +15,9 @@ except TypeError:
 ### PAUSE 1 
 Fix the bug so that the print statement displays the correct value of age in the output area.
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 13/Fix the Errors/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 13/Fix the Errors/task.py|task]] · [[100-days-of-code/Day 13/Fix the Errors/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 13/Fix the Errors/task-info.yaml|info]] · [[100-days-of-code/Day 13/Fix the Errors/task-remote-info.yaml|remote-info]]

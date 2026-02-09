@@ -27,3 +27,10 @@ e.g.
 
 #### PAUSE 3. Make this line of code run without errors
 `print("Number of letters in your name: " + len(input("Enter your name")))`
+
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 2/Type Error, Checking and Conversion/task.py|task]] · [[100-days-of-code/Day 2/Type Error, Checking and Conversion/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 2/Type Error, Checking and Conversion/task-info.yaml|info]] · [[100-days-of-code/Day 2/Type Error, Checking and Conversion/task-remote-info.yaml|remote-info]]

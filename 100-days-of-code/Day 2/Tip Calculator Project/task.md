@@ -14,8 +14,9 @@ https://appbrewery.github.io/python-day2-demo/
 ### Very Optional Reading: Floating Point Arithmetic
 https://docs.python.org/3/tutorial/floatingpoint.html
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 2/Tip Calculator Project/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 2/Tip Calculator Project/solution.py|solution]] · [[100-days-of-code/Day 2/Tip Calculator Project/main.py|main]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 2/Tip Calculator Project/task-info.yaml|info]] · [[100-days-of-code/Day 2/Tip Calculator Project/task-remote-info.yaml|remote-info]]

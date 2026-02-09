@@ -14,3 +14,6 @@
 
 ### TODO-3: 
 - print the ASCII art from the list `stages` that corresponds to the current number of `lives` the user has remaining.
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 7/Step 4/task-info.yaml|info]] · [[100-days-of-code/Day 7/Step 4/task-remote-info.yaml|remote-info]]

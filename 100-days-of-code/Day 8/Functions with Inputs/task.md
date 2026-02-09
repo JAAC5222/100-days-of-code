@@ -26,10 +26,11 @@ When you create a function with inputs, you are defining a variable name that wi
 
 The name of the input variable, e.g. `name` in this code here: `def greet(name):` is called the parameter.
 
-The value of the value of the input variable, e.g. `Angela` when you call the previous `greet` function: `greet("Angela")` is called the argument. 
+The value of the value of the input variable, e.g. `Angela` when you call the previous `greet` function: `greet("Angela")` is called the argument.
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 8/Functions with Inputs/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 8/Functions with Inputs/task.py|task]] · [[100-days-of-code/Day 8/Functions with Inputs/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 8/Functions with Inputs/task-info.yaml|info]] · [[100-days-of-code/Day 8/Functions with Inputs/task-remote-info.yaml|remote-info]]

@@ -34,3 +34,10 @@ In the if/elif/else block, only one of A, B, or C can happen, because if/elif/el
 In the nested if statements, A, B and C can all happen, but conditions 1, 2 and 3 must all be true. The computer will only check condition 2 if condition 1 is true.
 
 In the multiple if statements, A, B, and C can all happen. But they are completely independent of each other. C can happen even if A and B don't. Every condition is checked, no matter the result of the others.
+
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 3/Multiple Ifs/task.py|task]] · [[100-days-of-code/Day 3/Multiple Ifs/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 3/Multiple Ifs/task-info.yaml|info]] · [[100-days-of-code/Day 3/Multiple Ifs/task-remote-info.yaml|remote-info]]

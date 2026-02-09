@@ -7,3 +7,5 @@ Then click the run button to execute your code.
 <code>print("some text")</code>
 </div>
 
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 1/Printing/task-info.yaml|info]] · [[100-days-of-code/Day 1/Printing/task-remote-info.yaml|remote-info]]

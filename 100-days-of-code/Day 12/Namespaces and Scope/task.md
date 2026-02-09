@@ -23,8 +23,9 @@ def my_function():
     print(my_global_var)
 ```
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 12/Namespaces and Scope/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 12/Namespaces and Scope/task.py|task]] · [[100-days-of-code/Day 12/Namespaces and Scope/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 12/Namespaces and Scope/task-info.yaml|info]] · [[100-days-of-code/Day 12/Namespaces and Scope/task-remote-info.yaml|remote-info]]

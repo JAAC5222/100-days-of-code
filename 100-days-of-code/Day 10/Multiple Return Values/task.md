@@ -31,8 +31,9 @@ def canBuyAlcohol(age):
         return False
 ```
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 10/Multiple Return Values/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 10/Multiple Return Values/task.py|task]] · [[100-days-of-code/Day 10/Multiple Return Values/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 10/Multiple Return Values/task-info.yaml|info]] · [[100-days-of-code/Day 10/Multiple Return Values/task-remote-info.yaml|remote-info]]

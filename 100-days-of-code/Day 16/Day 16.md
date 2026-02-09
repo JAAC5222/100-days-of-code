@@ -1,26 +1,176 @@
-# Day 16 - Coffee Machine (OOP)
+# Day 16 - OOP - Coffee Machine
 
 ← [[100-days-of-code/Day 15/Day 15|Day 15]] | [[100-days-of-code/Day 17/Day 17|Day 17]] →
 
 ---
-## 📝 ¿Qué aprendí hoy?
-Clases, objetos, métodos, atributos, importar clases
+
+## 📝 ¿Qué conceptos aprendí hoy?
+
+Object-Oriented Programming (OOP) · Classes · Objects · Methods · Attributes
 
 ---
-## 🔗 Conceptos relacionados
-Este día usa conceptos de:
-- [[100-days-of-code/Day 6/Day 6|Day 6]] - Métodos son funciones dentro de clases
-- [[100-days-of-code/Day 9/Day 9|Day 9]] - Atributos son como diccionarios de cada objeto
-- [[100-days-of-code/Day 15/Day 15|Day 15]] - Misma funcionalidad pero con paradigma diferente
-- [[100-days-of-code/Day 1/Day 1|Day 1]] - Variables ahora son atributos de objetos
----
+
+### Instrucciones del proyecto
+[[100-days-of-code/Day 16/task|task]]
+
 ## 💻 Código del día
-```dataviewjs
-const dayFolder = "100-days-of-code/Day 16/src"; const folder = app.vault.getAbstractFileByPath(dayFolder); if (folder && folder.children) { const pyFiles = folder.children.filter(f => f.extension === 'py'); if (pyFiles.length > 0) { pyFiles.sort((a, b) => { if (a.basename === 'main') return -1; if (b.basename === 'main') return 1; return a.basename.localeCompare(b.basename); }); for (let file of pyFiles) { const content = await app.vault.read(file); dv.header(3, file.basename + '.py'); dv.paragraph("```python\n" + content + "\n```"); dv.paragraph("---"); } } else { dv.paragraph("*No hay archivos .py directamente en esta carpeta*"); } }
+
+### main.py
+
+```python
+from menu import Menu
+from coffee_maker import CoffeeMaker
+from money_machine import MoneyMachine
+
+menu = Menu()
+coffe_maker = CoffeeMaker()
+money_machine = MoneyMachine()
+
+while True:
+    option = input(f"Welcome to the Coffee Maker! What would you like? ({menu.get_items()}): ")
+
+    if option == "report":
+        coffe_maker.report()
+        money_machine.report()
+        continue
+    elif option == "off":
+        print("Shutting down the Coffee Maker. Goodbye!")
+        break
+
+    option = menu.find_drink(option)
+
+    while option is None:
+        option = menu.find_drink(input(f"Incorrect option, please select a correct drink ({menu.get_items()}): "))
+
+    if coffe_maker.is_resource_sufficient(option) and money_machine.make_payment(option.cost):
+        coffe_maker.make_coffee(option)
 ```
 
+### coffee_maker.py
+
+```python
+class CoffeeMaker:
+    """Models the machine that makes the coffee"""
+    def __init__(self):
+        self.resources = {
+            "water": 300,
+            "milk": 200,
+            "coffee": 100,
+        }
+
+    def report(self):
+        """Prints a report of all resources."""
+        print(f"Water: {self.resources['water']}ml")
+        print(f"Milk: {self.resources['milk']}ml")
+        print(f"Coffee: {self.resources['coffee']}g")
+
+    def is_resource_sufficient(self, drink):
+        """Returns True when order can be made, False if ingredients are insufficient."""
+        can_make = True
+        for item in drink.ingredients:
+            if drink.ingredients[item] > self.resources[item]:
+                print(f"Sorry there is not enough {item}.")
+                can_make = False
+        return can_make
+
+    def make_coffee(self, order):
+        """Deducts the required ingredients from the resources."""
+        for item in order.ingredients:
+            self.resources[item] -= order.ingredients[item]
+        print(f"Here is your {order.name} ☕️. Enjoy!")
+```
+
+### menu.py
+
+```python
+class MenuItem:
+    """Models each Menu Item."""
+    def __init__(self, name, water, milk, coffee, cost):
+        self.name = name
+        self.cost = cost
+        self.ingredients = {
+            "water": water,
+            "milk": milk,
+            "coffee": coffee
+        }
+
+
+class Menu:
+    """Models the Menu with drinks."""
+    def __init__(self):
+        self.menu = [
+            MenuItem(name="latte", water=200, milk=150, coffee=24, cost=2.5),
+            MenuItem(name="espresso", water=50, milk=0, coffee=18, cost=1.5),
+            MenuItem(name="cappuccino", water=250, milk=50, coffee=24, cost=3),
+        ]
+
+    def get_items(self):
+        """Returns all the names of the available menu items"""
+        options = ""
+        for item in self.menu:
+            options += f"{item.name}/"
+        return options
+
+    def find_drink(self, order_name):
+        """Searches the menu for a particular drink by name. Returns that item if it exists, otherwise returns None"""
+        for item in self.menu:
+            if item.name == order_name:
+                return item
+        print("Sorry that item is not available.")
+```
+
+### money_machine.py
+
+```python
+class MoneyMachine:
+
+    CURRENCY = "$"
+
+    COIN_VALUES = {
+        "quarters": 0.25,
+        "dimes": 0.10,
+        "nickles": 0.05,
+        "pennies": 0.01
+    }
+
+    def __init__(self):
+        self.profit = 0
+        self.money_received = 0
+
+    def report(self):
+        """Prints the current profit"""
+        print(f"Money: {self.CURRENCY}{self.profit}")
+
+    def process_coins(self):
+        """Returns the total calculated from coins inserted."""
+        print("Please insert coins.")
+        for coin in self.COIN_VALUES:
+            self.money_received += int(input(f"How many {coin}?: ")) * self.COIN_VALUES[coin]
+        return self.money_received
+
+    def make_payment(self, cost):
+        """Returns True when payment is accepted, or False if insufficient."""
+        self.process_coins()
+        if self.money_received >= cost:
+            change = round(self.money_received - cost, 2)
+            print(f"Here is {self.CURRENCY}{change} in change.")
+            self.profit += cost
+            self.money_received = 0
+            return True
+        else:
+            print("Sorry that's not enough money. Money refunded.")
+            self.money_received = 0
+            return False
+```
+
+### Archivos
+
+[[100-days-of-code/Day 16/src/main.py|main.py]] · [[100-days-of-code/Day 16/src/coffee_maker.py|coffee_maker.py]] · [[100-days-of-code/Day 16/src/menu.py|menu.py]] · [[100-days-of-code/Day 16/src/money_machine.py|money_machine.py]]
+
 ---
+
 ## 🧠 Reflexión
+
 ### ¿Qué fue fácil?
 - El concepto de "objetos como cosas del mundo real"
 - Importar clases de otros archivos
@@ -31,10 +181,13 @@ const dayFolder = "100-days-of-code/Day 16/src"; const folder = app.vault.getAbs
 - OOP organiza código en "objetos" que tienen datos y funciones relacionadas
 - Las clases son como "moldes" y los objetos son las "cosas creadas con el molde"
 - OOP hace el código más fácil de entender y mantener
+
 ---
+
 ## 🏷️ Tags
 
 #OOP #classes #objects #methods #project #intermediate
 
 ---
+
 **MOCs relacionados**: [[MOC - OOP]] | [[MOC - Projects]]

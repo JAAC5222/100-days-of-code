@@ -30,3 +30,10 @@ Your final bill is: $28.
 <div class="hint">
   Don't change any of the starting code and make sure that the final sentence says "Your final bill is: $<bill amount>." including the full stop and the same wording. Otherwise, the tests will not pass.
 </div>
+
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 3/Python Pizza/task.py|task]] · [[100-days-of-code/Day 3/Python Pizza/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 3/Python Pizza/task-info.yaml|info]] · [[100-days-of-code/Day 3/Python Pizza/task-remote-info.yaml|remote-info]]

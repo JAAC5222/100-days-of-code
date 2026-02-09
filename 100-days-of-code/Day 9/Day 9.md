@@ -3,36 +3,78 @@
 ← [[100-days-of-code/Day 8/Day 8|Day 8]] | [[100-days-of-code/Day 10/Day 10|Day 10]] →
 
 ---
+
 ## 📝 ¿Qué conceptos aprendí hoy?
-Dictionaries, nested structures, clear screen
+
+[[100-days-of-code/Day 9/Blind Auction Project/task.md|Blind Auction Project]] · [[100-days-of-code/Day 9/Dictionaries/task.md|Dictionaries]] · [[100-days-of-code/Day 9/Nested Lists and Dictionaries/task.md|Nested Lists and Dictionaries]]
 
 ---
-## 🔗 Conceptos relacionados
-Este día usa conceptos de:
-- [[100-days-of-code/Day 6/Day 6|Day 6]] - Funciones para organizar la lógica
-- [[100-days-of-code/Day 5/Day 5|Day 5]] - Loops para iterar sobre diccionarios
-- [[100-days-of-code/Day 3/Day 3|Day 3]] - Control flow para determinar el ganador
-- [[100-days-of-code/Day 1/Day 1|Day 1]] - Input para nombres y ofertas
----
+
 ## 💻 Código del día
-```dataviewjs
-const dayFolder = "100-days-of-code/Day 9/Blind Auction Project";
-const folder = app.vault.getAbstractFileByPath(dayFolder);
 
-if (folder && folder.children) {
-    const mainFile = folder.children.find(f => f.basename === 'main' && f.extension === 'py');
-    
-    if (mainFile) {
-        const content = await app.vault.read(mainFile);
-        dv.header(3, 'main.py');
-        dv.paragraph("```python\n" + content + "\n```");
-    } else {
-        dv.paragraph("*No se encontró main.py en esta carpeta*");
-    }
-}
+### main.py
+
+```python
+# TODO-1: Ask the user for input
+# TODO-2: Save data into dictionary {name: price}
+# TODO-3: Whether if new bids need to be added
+# TODO-4: Compare bids in dictionary
+
+import art
+
+auction = {}
+
+print(art.logo)
+
+maxBid = 0
+
+while True:
+    name = input("What is your name?: ")
+    bid = int(input("What is your bid?: "))
+
+    auction[name] = bid
+    if bid > maxBid:
+        maxBid = bid
+
+    keep = input("Are there any other bidders? Type 'yes' or 'no': ").lower()
+    if keep == "yes":
+        continue
+    elif keep == "no":
+        winner = [k for k, v in auction.items() if v == maxBid]
+        if len(winner) == 1:
+            print("The winner is ", winner[0], "with a bid of ", maxBid, ".")
+        elif len(winner) > 1:
+            print(f"The winners are ", end='')
+            for i in winner:
+                print(i, end=" ")
+            print(f"with a bid of {maxBid}.")
+    break
 ```
 
+### art.py
+
+```python
+logo = r'''
+                         ___________
+                         \         /
+                          )_______(
+                          |"""""""|_.-._,.---------.,_.-._
+                          |       | | |               | | ''-.
+                          |       |_| |_             _| |_..-'
+                          |_______| '-' `'---------'` '-'
+                          )"""""""(
+                         /_________\\
+                       .-------------.
+                      /_______________\\
+'''
+```
+
+### Archivos
+
+[[100-days-of-code/Day 9/Blind Auction Project/main.py|main.py]] · [[100-days-of-code/Day 9/Blind Auction Project/art.py|art.py]]
+
 ---
+
 ## 🧠 Reflexión
 
 ### ¿Qué fue fácil?
@@ -45,10 +87,16 @@ if (folder && folder.children) {
 - Los diccionarios son perfectos para datos estructurados
 - Puedes tener listas dentro de diccionarios y viceversa
 - `clear()` para limpiar la consola hace el programa más dinámico
+
 ---
+
 ## 🏷️ Tags
 
 #dictionaries #structures #project #beginner
 
 ---
+
 **MOCs relacionados**: [[MOC - Python Fundamentals]] | [[MOC - Projects]]
+
+> [!info]- Archivos info de la lección para PyCharm
+> [[100-days-of-code/Day 9/lesson-info.yaml|lesson-info]] · [[100-days-of-code/Day 9/lesson-remote-info.yaml|lesson-remote-info]]

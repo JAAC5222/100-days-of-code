@@ -8,3 +8,5 @@ Write everything in just 1 line of code.
 Split each step in the previous exercise into a separate variable. One variable called username and one called length. 
 Use the variable username in the len calculation.
 
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 1/Variables/task-info.yaml|info]] · [[100-days-of-code/Day 1/Variables/task-remote-info.yaml|remote-info]]

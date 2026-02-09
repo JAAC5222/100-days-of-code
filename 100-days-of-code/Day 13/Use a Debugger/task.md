@@ -14,8 +14,9 @@ There are a couple of things that are the same in most IDEs which you should be 
 ### PAUSE 1
 Use the PyCharm debugger to figure out what is the issue in the starting code and fix it.
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 13/Use a Debugger/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 13/Use a Debugger/task.py|task]] · [[100-days-of-code/Day 13/Use a Debugger/solution.py|solution]] · [[100-days-of-code/Day 13/Use a Debugger/maths.py|maths]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 13/Use a Debugger/task-info.yaml|info]] · [[100-days-of-code/Day 13/Use a Debugger/task-remote-info.yaml|remote-info]]

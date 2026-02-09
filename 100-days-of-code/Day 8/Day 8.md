@@ -3,86 +3,43 @@
 ← [[100-days-of-code/Day 7/Day 7|Day 7]] | [[100-days-of-code/Day 9/Day 9|Day 9]] →
 
 ---
+
 ## 📝 ¿Qué conceptos aprendí hoy?
-Funciones con parámetros, cipher, ASCII
+
+[[100-days-of-code/Day 8/Caesar Cipher 1/task.md|Caesar Cipher 1]] · [[100-days-of-code/Day 8/Caesar Cipher 2/task.md|Caesar Cipher 2]] · [[100-days-of-code/Day 8/Caesar Cipher 3/task.md|Caesar Cipher 3]] · [[100-days-of-code/Day 8/Functions with Inputs/task.md|Functions with Inputs]] · [[100-days-of-code/Day 8/Positional vs Keyword Arguments/task.md|Positional vs Keyword Arguments]]
 
 ---
-## 🔗 Conceptos relacionados
-Este día usa conceptos de:
-- [[100-days-of-code/Day 6/Day 6|Day 6]] - Funciones con parámetros
-- [[100-days-of-code/Day 5/Day 5|Day 5]] - Loops para recorrer el alfabeto
-- [[100-days-of-code/Day 4/Day 4|Day 4]] - Listas para el alfabeto
-- [[100-days-of-code/Day 3/Day 3|Day 3]] - Control flow para direcciones (encrypt/decrypt)
-- [[100-days-of-code/Day 1/Day 1|Day 1]] - Strings para el texto a encriptar
 
----
 ## 💻 Código del día
-```dataviewjs
-const dayFolder = "100-days-of-code/Day 8/Caesar Cipher 1";
-const folder = app.vault.getAbstractFileByPath(dayFolder);
 
-if (folder && folder.children) {
-    const mainFile = folder.children.find(f => f.basename === 'main' && f.extension === 'py');
-    
-    if (mainFile) {
-        const content = await app.vault.read(mainFile);
-        dv.header(3, 'Caesar Cipher 1/main.py');
-        dv.paragraph("```python\n" + content + "\n```");
-    } else {
-        dv.paragraph("*No se encontró main.py en esta carpeta*");
-    }
-}
-```
-```dataviewjs
-const dayFolder = "100-days-of-code/Day 8/Caesar Cipher 2";
-const folder = app.vault.getAbstractFileByPath(dayFolder);
+### main.py
 
-if (folder && folder.children) {
-    const mainFile = folder.children.find(f => f.basename === 'main' && f.extension === 'py');
-    
-    if (mainFile) {
-        const content = await app.vault.read(mainFile);
-        dv.header(3, 'Caesar Cipher 2/main.py');
-        dv.paragraph("```python\n" + content + "\n```");
-    } else {
-        dv.paragraph("*No se encontró main.py en esta carpeta*");
-    }
-}
-```
-```dataviewjs
-const dayFolder = "100-days-of-code/Day 8/Caesar Cipher 3";
-const folder = app.vault.getAbstractFileByPath(dayFolder);
+```python
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-if (folder && folder.children) {
-    const mainFile = folder.children.find(f => f.basename === 'main' && f.extension === 'py');
-    
-    if (mainFile) {
-        const content = await app.vault.read(mainFile);
-        dv.header(3, 'Caesar Cipher 3/main.py');
-        dv.paragraph("```python\n" + content + "\n```");
-    } else {
-        dv.paragraph("*No se encontró main.py en esta carpeta*");
-    }
-}
+direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
+text = input("Type your message:\n").lower()
+shift = int(input("Type the shift number:\n"))
+
+
+def encrypt(original_text, shift_amount):
+    cipher_text = ""
+    for letter in original_text:
+        shifted_position = alphabet.index(letter) + shift_amount
+        shifted_position %= len(alphabet)
+        cipher_text += alphabet[shifted_position]
+    print(f"Here is the encoded result: {cipher_text}")
+
+
+encrypt(original_text=text, shift_amount=shift)
 ```
 
-```dataviewjs
-const dayFolder = "100-days-of-code/Day 8/Caesar Cipher 12";
-const folder = app.vault.getAbstractFileByPath(dayFolder);
+### Archivos
 
-if (folder && folder.children) {
-    const mainFile = folder.children.find(f => f.basename === 'main' && f.extension === 'py');
-    
-    if (mainFile) {
-        const content = await app.vault.read(mainFile);
-        dv.header(3, 'main.py');
-        dv.paragraph("```python\n" + content + "\n```");
-    } else {
-        dv.paragraph("*No se encontró main.py en esta carpeta*");
-    }
-}
-```
+[[100-days-of-code/Day 8/Caesar Cipher 1/main.py|main.py]]
+
 ---
+
 ## 🧠 Reflexión
 
 ### ¿Qué fue fácil?
@@ -94,10 +51,16 @@ if (folder && folder.children) {
 - Los parámetros hacen las funciones flexibles
 - Puedes tener múltiples parámetros: `def encrypt(text, shift, direction)`
 - Las funciones pueden llamar a otras funciones
+
 ---
+
 ## 🏷️ Tags
 
 #functions #parameters #strings #project #beginner
 
 ---
+
 **MOCs relacionados**: [[MOC - Python Fundamentals]] | [[MOC - Projects]]
+
+> [!info]- Archivos info de la lección para PyCharm
+> [[100-days-of-code/Day 8/lesson-info.yaml|lesson-info]] · [[100-days-of-code/Day 8/lesson-remote-info.yaml|lesson-remote-info]]

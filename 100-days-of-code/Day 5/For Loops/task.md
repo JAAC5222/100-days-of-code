@@ -38,3 +38,10 @@ for fruit in fruits:
     print(fruit)
 print("Hello")
 ```
+
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 5/For Loops/task.py|task]] · [[100-days-of-code/Day 5/For Loops/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 5/For Loops/task-info.yaml|info]] · [[100-days-of-code/Day 5/For Loops/task-remote-info.yaml|remote-info]]

@@ -20,3 +20,6 @@
 <div class="hint">
   Remember that the for loop will go through each letter in the chosen_word in order. You can use that fact to create a new string, appending the letter or an "_".
 </div>
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 7/Step 2/task-info.yaml|info]] · [[100-days-of-code/Day 7/Step 2/task-remote-info.yaml|remote-info]]

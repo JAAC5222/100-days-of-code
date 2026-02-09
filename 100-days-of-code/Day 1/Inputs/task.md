@@ -8,3 +8,6 @@ You are looking to print a sentence like this:
 Hello Name!
 
 e.g. Hello Angela!
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 1/Inputs/task-info.yaml|info]] · [[100-days-of-code/Day 1/Inputs/task-remote-info.yaml|remote-info]]

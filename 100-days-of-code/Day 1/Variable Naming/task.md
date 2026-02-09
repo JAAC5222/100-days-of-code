@@ -8,3 +8,6 @@ Learn the rules of variable naming in Python.
 4. Don't use special words like print or input
 5. Choose simple words that are less likely to become typos
 6. Check the company style guidelines if you start work at a company
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 1/Variable Naming/task-info.yaml|info]] · [[100-days-of-code/Day 1/Variable Naming/task-remote-info.yaml|remote-info]]

@@ -9,8 +9,9 @@ Look at the code in task.py and answer the following questions:
 ### PAUSE 2
 Fix the code so that the print statement executes.
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 13/Describe the Problem/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 13/Describe the Problem/task.py|task]] · [[100-days-of-code/Day 13/Describe the Problem/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 13/Describe the Problem/task-info.yaml|info]] · [[100-days-of-code/Day 13/Describe the Problem/task-remote-info.yaml|remote-info]]

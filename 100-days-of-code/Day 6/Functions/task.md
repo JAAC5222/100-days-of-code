@@ -36,8 +36,9 @@ Hello
 Angela
 ```
 
----
-## Function Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 6/Functions/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 6/Functions/solution.py|solution]] · [[100-days-of-code/Day 6/Functions/main.py|main]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 6/Functions/task-info.yaml|info]] · [[100-days-of-code/Day 6/Functions/task-remote-info.yaml|remote-info]]

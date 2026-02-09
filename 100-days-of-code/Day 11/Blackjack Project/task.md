@@ -110,8 +110,5 @@ https://developers.google.com/edu/python/lists#list-methods
   Ask the user if they want to restart the game. If they answer yes, clear the console and start a new game of blackjack and show the logo from art.py.
 </div>
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 11/task/main.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 11/Blackjack Project/task-info.yaml|info]] · [[100-days-of-code/Day 11/Blackjack Project/task-remote-info.yaml|remote-info]]

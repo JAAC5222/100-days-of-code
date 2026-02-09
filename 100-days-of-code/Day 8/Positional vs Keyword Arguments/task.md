@@ -50,8 +50,9 @@ greet_with(location="London", name="Angela")
 </code>
 </div>
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 8/Positional vs Keyword Arguments/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 8/Positional vs Keyword Arguments/task.py|task]] · [[100-days-of-code/Day 8/Positional vs Keyword Arguments/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 8/Positional vs Keyword Arguments/task-info.yaml|info]] · [[100-days-of-code/Day 8/Positional vs Keyword Arguments/task-remote-info.yaml|remote-info]]

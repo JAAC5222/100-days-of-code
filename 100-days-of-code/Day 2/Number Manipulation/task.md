@@ -31,3 +31,10 @@ In Python, we can use f-strings to insert a variable or an expression into a str
 `print(f"I am {age} years old")`
 
 `# Will output I am 12 years old.`
+
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 2/Number Manipulation/task.py|task]] · [[100-days-of-code/Day 2/Number Manipulation/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 2/Number Manipulation/task-info.yaml|info]] · [[100-days-of-code/Day 2/Number Manipulation/task-remote-info.yaml|remote-info]]

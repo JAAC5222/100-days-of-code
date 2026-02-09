@@ -42,3 +42,10 @@ fruits.append("Orange")
 
 ### Lists Documentation
 You can find the documentation for Python Lists and other List related functions here: https://docs.python.org/3/tutorial/datastructures.html
+
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 4/Lists/task.py|task]] · [[100-days-of-code/Day 4/Lists/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 4/Lists/task-info.yaml|info]] · [[100-days-of-code/Day 4/Lists/task-remote-info.yaml|remote-info]]

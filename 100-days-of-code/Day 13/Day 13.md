@@ -3,20 +3,22 @@
 ← [[100-days-of-code/Day 12/Day 12|Day 12]] | [[100-days-of-code/Day 14/Day 14|Day 14]] →
 
 ---
-## 📝 ¿Qué aprendí hoy?
 
-Técnicas de debugging, leer errores, print debugging
+## 📝 ¿Qué conceptos aprendí hoy?
+
+[[100-days-of-code/Day 13/Describe the Problem/task.md|Describe the Problem]] · [[100-days-of-code/Day 13/Fix the Errors/task.md|Fix the Errors]] · [[100-days-of-code/Day 13/Play Computer/task.md|Play Computer]] · [[100-days-of-code/Day 13/Reproduce the Bug/task.md|Reproduce the Bug]] · [[100-days-of-code/Day 13/Use Print/task.md|Use Print]] · [[100-days-of-code/Day 13/Use a Debugger/task.md|Use a Debugger]]
 
 ---
-## 🔗 Conceptos relacionados
-Este día usa conceptos de:
-- [[100-days-of-code/Day 1/Day 1|Day 1]] - Print debugging
-- [[100-days-of-code/Day 3/Day 3|Day 3]] - Errores comunes en control flow
-- [[100-days-of-code/Day 4/Day 4|Day 4]] - IndexError con listas
-- [[100-days-of-code/Day 5/Day 5|Day 5]] - Bugs en loops (off-by-one errors)
-- [[100-days-of-code/Day 6/Day 6|Day 6]] - Debugging de funciones
+
+## 💻 Código del día
+
+*Código por completar*
+
+
 ---
+
 ## 🧠 Reflexión
+
 ### ¿Qué fue fácil?
 - Los conceptos de debugging
 - Usar `print()` para ver qué está pasando
@@ -28,10 +30,16 @@ Este día usa conceptos de:
 - Los errores son normales, hasta los programadores experimentados los tienen
 - Google + Stack Overflow + IA (usado correctamente) son tus mejores amigos
 - Tomar descansos ayuda
+
 ---
+
 ## 🏷️ Tags
 
 #debugging #errors #exercise #beginner
 
 ---
+
 **MOCs relacionados**: [[MOC - Python Fundamentals]] | [[MOC - Projects]]
+
+> [!info]- Archivos info de la lección para PyCharm
+> [[100-days-of-code/Day 13/lesson-info.yaml|lesson-info]] · [[100-days-of-code/Day 13/lesson-remote-info.yaml|lesson-remote-info]]

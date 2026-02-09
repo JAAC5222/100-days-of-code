@@ -22,4 +22,9 @@ Where the range of numbers is inclusive of the lower bound but not inclusive of 
 ### PAUSE 1 - The Gauss Challenge
 Work out the total of the numbers between 1 and 100, inclusive of both 1 and 100.
 
+## Archivos del ejercicio del concepto
 
+[[100-days-of-code/Day 5/For Loops with Range/task.py|task]] · [[100-days-of-code/Day 5/For Loops with Range/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 5/For Loops with Range/task-info.yaml|info]] · [[100-days-of-code/Day 5/For Loops with Range/task-remote-info.yaml|remote-info]]

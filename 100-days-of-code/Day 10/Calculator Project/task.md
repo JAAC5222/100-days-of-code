@@ -49,8 +49,9 @@ TODO: Use the dictionary operations to perform the calculations. Multiply 4 * 8 
 result would then be equal to 15.
 </div>
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 10/Calculator Project/main.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 10/Calculator Project/solution.py|solution]] · [[100-days-of-code/Day 10/Calculator Project/art.py|art]] · [[100-days-of-code/Day 10/Calculator Project/main.py|main]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 10/Calculator Project/task-info.yaml|info]] · [[100-days-of-code/Day 10/Calculator Project/task-remote-info.yaml|remote-info]]

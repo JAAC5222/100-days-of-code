@@ -33,3 +33,10 @@ e.g.
 * `<=` Less than or equal to
 * `==` Equal to
 * `!=` Not equal to
+
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 3/If Else/task.py|task]] · [[100-days-of-code/Day 3/If Else/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 3/If Else/task-info.yaml|info]] · [[100-days-of-code/Day 3/If Else/task-remote-info.yaml|remote-info]]

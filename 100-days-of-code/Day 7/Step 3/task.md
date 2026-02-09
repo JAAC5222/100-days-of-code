@@ -16,3 +16,6 @@ e.g. Google: check if a letter is present in a string python
 <div class="hint">
   Think about how you can store the matched letters and use an elif to check if a letter has been matched before.
 </div>
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 7/Step 3/task-info.yaml|info]] · [[100-days-of-code/Day 7/Step 3/task-remote-info.yaml|remote-info]]

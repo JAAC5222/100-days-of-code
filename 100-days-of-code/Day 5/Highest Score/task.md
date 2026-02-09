@@ -37,3 +37,9 @@ Your code should print
 91
 ```
 
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 5/Highest Score/task.py|task]] · [[100-days-of-code/Day 5/Highest Score/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 5/Highest Score/task-info.yaml|info]] · [[100-days-of-code/Day 5/Highest Score/task-remote-info.yaml|remote-info]]

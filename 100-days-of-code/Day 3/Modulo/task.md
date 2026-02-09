@@ -22,3 +22,10 @@ If it's odd print out the word "Odd" otherwise printout "Even".
 <br/>4. Use the modulo (%) to check if the user input number can be divided cleanly by 2. 
 <br>5. Use if/else to check if the result of the modulo check in step 4 is equal to 0 then that input number is even, otherwise it's odd. 
 </div>
+
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 3/Modulo/task.py|task]] · [[100-days-of-code/Day 3/Modulo/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 3/Modulo/task-info.yaml|info]] · [[100-days-of-code/Day 3/Modulo/task-remote-info.yaml|remote-info]]

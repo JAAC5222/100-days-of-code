@@ -12,3 +12,9 @@ Figure out how to pick a random name from the list of `friends`.
   Alternatively think about using the documentation to figure out how to get a random item from a List in Python.
 </div>
 
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 4/Banker Roulette/task.py|task]] · [[100-days-of-code/Day 4/Banker Roulette/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 4/Banker Roulette/task-info.yaml|info]] · [[100-days-of-code/Day 4/Banker Roulette/task-remote-info.yaml|remote-info]]

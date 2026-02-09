@@ -31,8 +31,9 @@ or
 
 </div>
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 8/Caesar Cipher 2/main.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 8/Caesar Cipher 2/solution.py|solution]] · [[100-days-of-code/Day 8/Caesar Cipher 2/main.py|main]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 8/Caesar Cipher 2/task-info.yaml|info]] · [[100-days-of-code/Day 8/Caesar Cipher 2/task-remote-info.yaml|remote-info]]

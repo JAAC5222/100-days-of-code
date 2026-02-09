@@ -23,3 +23,6 @@
 ### TODO 7: 
 - Update the print statement to give the user the correct word they were trying to guess.
 - e.g. `IT WAS <Correct Word>! YOU LOSE`
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 7/Step 5/task-info.yaml|info]] · [[100-days-of-code/Day 7/Step 5/task-remote-info.yaml|remote-info]]

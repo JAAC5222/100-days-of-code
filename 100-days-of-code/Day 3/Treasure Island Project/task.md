@@ -16,8 +16,9 @@ Alternatively you can also use the logical operator "or" to check for other spel
 ### Demo
 https://appbrewery.github.io/python-day3-demo/
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 3/Treasure Island Project/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 3/Treasure Island Project/solution.py|solution]] · [[100-days-of-code/Day 3/Treasure Island Project/main.py|main]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 3/Treasure Island Project/task-info.yaml|info]] · [[100-days-of-code/Day 3/Treasure Island Project/task-remote-info.yaml|remote-info]]

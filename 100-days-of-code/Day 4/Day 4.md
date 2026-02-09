@@ -3,37 +3,79 @@
 ← [[100-days-of-code/Day 3/Day 3|Day 3]] | [[100-days-of-code/Day 5/Day 5|Day 5]] →
 
 ---
+
 ## 📝 ¿Qué conceptos aprendí hoy?
-Listas, indexing, IndexError, random module
+
+[[100-days-of-code/Day 4/Banker Roulette/task.md|Banker Roulette]] · [[100-days-of-code/Day 4/IndexError/task.md|IndexError]] · [[100-days-of-code/Day 4/Lists/task.md|Lists]] · [[100-days-of-code/Day 4/Random Module/task.md|Random Module]] · [[100-days-of-code/Day 4/Rock Paper Scissors/task.md|Rock Paper Scissors]]
 
 ---
-## 🔗 Conceptos relacionados
-Este día usa conceptos de:
-- [[100-days-of-code/Day 1/Day 1|Day 1]] - Variables para almacenar listas
-- [[100-days-of-code/Day 3/Day 3|Day 3]] - Control flow para validaciones
-- [[100-days-of-code/Day 2/Day 2|Day 2]] - Operaciones con índices numéricos
----
+
 ## 💻 Código del día
 
-```dataviewjs
-const dayFolder = "100-days-of-code/Day 4/Rock Paper Scissors";
-const folder = app.vault.getAbstractFileByPath(dayFolder);
+### main.py
 
-if (folder && folder.children) {
-    const mainFile = folder.children.find(f => f.basename === 'main' && f.extension === 'py');
-    
-    if (mainFile) {
-        const content = await app.vault.read(mainFile);
-        dv.header(3, 'main.py');
-        dv.paragraph("```python\n" + content + "\n```");
-    } else {
-        dv.paragraph("*No se encontró main.py en esta carpeta*");
-    }
-}
+```python
+import random
+
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+game_images = [rock, paper, scissors]
+
+user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+if user_choice >= 0 and user_choice <= 2:
+    print(game_images[user_choice])
+
+computer_choice = random.randint(0, 2)
+print("Computer chose:")
+print(game_images[computer_choice])
+
+if user_choice >= 3 or user_choice < 0:
+    print("You typed an invalid number. You lose!")
+elif user_choice == 0 and computer_choice == 2:
+    print("You win!")
+elif computer_choice == 0 and user_choice == 2:
+    print("You lose!")
+elif computer_choice > user_choice:
+    print("You lose!")
+elif user_choice > computer_choice:
+    print("You win!")
+elif computer_choice == user_choice:
+    print("It's a draw!")
 ```
 
+### Archivos
+
+[[100-days-of-code/Day 4/Rock Paper Scissors/main.py|main.py]]
+
 ---
+
 ## 🧠 Reflexión
+
 ### ¿Qué fue fácil?
 
 - Las listas son como cajones con compartimentos numerados
@@ -43,10 +85,16 @@ if (folder && folder.children) {
 - `len(lista)` te da el tamaño
 - `random.choice()` es perfecto para elegir elementos aleatorios
 - Las listas pueden contener diferentes tipos de datos
+
 ---
+
 ## 🏷️ Tags
 
 #lists #indexing #modules #exercise #beginner
 
 ---
+
 **MOCs relacionados**: [[MOC - Python Fundamentals]] | [[MOC - Projects]]
+
+> [!info]- Archivos info de la lección para PyCharm
+> [[100-days-of-code/Day 4/lesson-info.yaml|lesson-info]] · [[100-days-of-code/Day 4/lesson-remote-info.yaml|lesson-remote-info]]

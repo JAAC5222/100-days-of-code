@@ -27,3 +27,5 @@ Check if the letter the user guessed `guess` is one of the letters in the `chose
     Try Googling: "Loop through strings python"
 </div>
 
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 7/Step 1/task-info.yaml|info]] · [[100-days-of-code/Day 7/Step 1/task-remote-info.yaml|remote-info]]

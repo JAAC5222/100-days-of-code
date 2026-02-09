@@ -31,8 +31,9 @@ If they type 'yes' then ask them for the direction/text/shift again and call the
   Try creating a while loop that continues to execute the program if the user types 'yes'.
 </div>
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 8/Caesar Cipher 3/main.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 8/Caesar Cipher 3/solution.py|solution]] · [[100-days-of-code/Day 8/Caesar Cipher 3/art.py|art]] · [[100-days-of-code/Day 8/Caesar Cipher 3/main.py|main]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 8/Caesar Cipher 3/task-info.yaml|info]] · [[100-days-of-code/Day 8/Caesar Cipher 3/task-remote-info.yaml|remote-info]]

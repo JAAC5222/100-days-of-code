@@ -63,3 +63,10 @@ Create a coin flip program using what you have learnt about randomisation in Pyt
 <div class="hint">
   You'll need to think about what you have learnt about conditional statements in Python.
 </div>
+
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 4/Random Module/task.py|task]] · [[100-days-of-code/Day 4/Random Module/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 4/Random Module/task-info.yaml|info]] · [[100-days-of-code/Day 4/Random Module/task-remote-info.yaml|remote-info]]

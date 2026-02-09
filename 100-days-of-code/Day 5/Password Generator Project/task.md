@@ -39,8 +39,9 @@ The essential skill of a good programmer is using Google to find what you need. 
   Try googling: "How to shuffle items in a List in Python"
 </div>
 
----
-## Solution Code
-```dataviewjs
-const file = app.vault.getAbstractFileByPath("Day 5/Password Generator Project/task.py"); const content = await app.vault.read(file); dv.paragraph("```python\n" + content + "\n```");
-```
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 5/Password Generator Project/solution.py|solution]] · [[100-days-of-code/Day 5/Password Generator Project/main.py|main]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 5/Password Generator Project/task-info.yaml|info]] · [[100-days-of-code/Day 5/Password Generator Project/task-remote-info.yaml|remote-info]]

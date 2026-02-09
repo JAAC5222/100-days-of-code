@@ -23,3 +23,10 @@ You could also represent the list in 2D format like this:
 ["Cherry", "Apple", "Pear"]
 ["Cucumber", "Kale", "Spinnach"]
 ```
+
+## Archivos del ejercicio del concepto
+
+[[100-days-of-code/Day 4/IndexError/task.py|task]] · [[100-days-of-code/Day 4/IndexError/solution.py|solution]]
+
+> [!info]- Archivos info del ejercicio para PyCharm
+> [[100-days-of-code/Day 4/IndexError/task-info.yaml|info]] · [[100-days-of-code/Day 4/IndexError/task-remote-info.yaml|remote-info]]
