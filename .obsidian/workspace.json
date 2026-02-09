@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1c0cb2ad8242ec20",
+        "id": "00c6ff452056db90",
         "type": "tabs",
         "children": [
           {
-            "id": "63e55e9c0c030d32",
+            "id": "1ad38d0ca7c6d0d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-days-of-code/Day 1/Day 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Day 1"
-            }
-          },
-          {
-            "id": "2b6278a344faa66b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-days-of-code/Day 1/Band Name Generator Project/task.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "task"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#aaaaaaaa",
+                "query": "__init__.py",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5
+    "width": 499.5
   },
   "right": {
     "id": "279416c7625b4660",
@@ -113,7 +94,7 @@
       {
         "id": "2fd9a64f0deb3159",
         "type": "tabs",
-        "dimension": 53.89492753623188,
+        "dimension": 67.85714285714286,
         "children": [
           {
             "id": "53f920f8060070a2",
@@ -168,13 +149,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dashboard"
+              "title": "Outline"
             }
           },
           {
@@ -207,7 +187,7 @@
       {
         "id": "2a5073634fabf08a",
         "type": "tabs",
-        "dimension": 46.10507246376812,
+        "dimension": 32.142857142857146,
         "children": [
           {
             "id": "0c7f632e897519ae",
@@ -227,62 +207,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "code-files:Create Code File": false,
       "bases:Create new base": false,
-      "graph:Open graph view": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "omnisearch:Omnisearch": false,
       "obsidian-importer:Open Importer": false,
-      "code-files:Create Code File": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
       "3d-graph:3D Graph": false,
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "2b6278a344faa66b",
+  "active": "1ad38d0ca7c6d0d8",
   "lastOpenFiles": [
-    "100-days-of-code/Day 1/Day 1.md",
-    "100-days-of-code/Day 2/Mathematical Operations/solution.py",
-    "100-days-of-code/Day 2/Mathematical Operations/task.py",
-    "100-days-of-code/Day 2/Mathematical Operations/task.md",
-    "100-days-of-code/Day 1/Band Name Generator Project/task.md",
-    "Dashboard.md",
-    "MOC - OOP.md",
-    "2026-02-06.md",
-    "test.md",
-    "2026-02-07.md",
-    "MOC - Python Fundamentals.md",
-    "MOC - Projects.md",
-    "Untitled.canvas",
-    "100-days-of-code/Day 8/Day 8.md",
-    "100-days-of-code/Day 4/Day 4.md",
-    "100-days-of-code/Day 10/Day 10.md",
-    "100-days-of-code/Day X/Day X.md",
-    "100-days-of-code/Day X",
-    "100-days-of-code/Day 2/Day 2.md",
-    "100.md",
-    "100-days-of-code/Day 7/Day 7.md",
-    "100-days-of-code/Day 7/task/__init__.py",
-    "100-days-of-code/Day 7/Step 1/task.md",
+    "100-days-of-code/Day 3/Python Pizza/tests/__pycache__",
+    "100-days-of-code/Day 9/Nested Lists and Dictionaries/task.py",
+    "100-days-of-code/Day 9/Nested Lists and Dictionaries/task.md",
+    "100-days-of-code/Day 9/Nested Lists and Dictionaries/task-remote-info.yaml",
+    "100-days-of-code/Day 9/Nested Lists and Dictionaries/task-info.yaml",
+    "100-days-of-code/Day 9/Nested Lists and Dictionaries/solution.py",
+    "100-days-of-code/Day 9/Dictionaries/task.py",
+    "100-days-of-code/Day 9/Dictionaries/task.md",
+    "100-days-of-code/Day 9/Dictionaries/task-remote-info.yaml",
+    "100-days-of-code/Day 9/Dictionaries/task-info.yaml",
+    "100-days-of-code/Day 9/Dictionaries/solution.py",
+    "100-days-of-code/Day 9/Blind Auction Project/task.md",
+    "100-days-of-code/Day 9/Blind Auction Project/task-remote-info.yaml",
+    "100-days-of-code/Day 9/Blind Auction Project/task-info.yaml",
+    "100-days-of-code/Day 8/Positional vs Keyword Arguments/task.md",
+    "100-days-of-code/Day 8/Functions with Inputs/task.md",
     "100-days-of-code/Day 8/Caesar Cipher 3/task.md",
-    "100-days-of-code/Day 14/Higher or Lower Project/task.md",
-    "100-days-of-code/Day 14/Day 14.md",
-    "100-days-of-code/Day 15/Coffee Machine Project/task.md",
-    "_Tag System.md.md",
-    "100-days-of-code/Day 1/Variables/task.md",
-    "100-days-of-code/Day 1/Variable Naming/task.md",
-    "100-days-of-code/Day 12/Global Constants/solution.py",
-    "100-days-of-code/Day 6/Functions/main.py",
-    "100-days-of-code/Day 4/Rock Paper Scissors/main.py",
-    "100-days-of-code/Day 3/Treasure Island Project/main.py",
-    "100-days-of-code/Day 2/Tip Calculator Project/main.py",
-    "100-days-of-code/Day 1/task/main.py",
+    "100-days-of-code/Day 8/Caesar Cipher 2/task.md",
+    "100-days-of-code/Day 8/Caesar Cipher 1/task.md",
+    "100-days-of-code/Day 4/Rock Paper Scissors/task.md",
+    "100-days-of-code/Day 4/Random Module/task.md",
+    "100-days-of-code/Day 4/Lists/task.md",
+    "100-days-of-code/Day 4/IndexError/task.md",
+    "100-days-of-code/Day 4/Banker Roulette/task.md",
+    "100-days-of-code/Day 7/Step 5/task.md",
+    "100-days-of-code/Day 7/Step 4/task.md",
+    "100-days-of-code/Day 7/Step 3/task.md",
+    "100-days-of-code/Day 7/Step 2/task.md",
+    "100-days-of-code/Day 7/Step 1/task.md",
+    "100-days-of-code/Day 5/Password Generator Project/task.md",
+    "100-days-of-code/Day 6/Functions/task.md",
+    "100-days-of-code/Day 5/Highest Score/task.md",
+    "100-days-of-code/Day 5/For Loops with Range/task.md",
+    "100-days-of-code/Day 5/For Loops/task.md",
+    "100-days-of-code/Day 3/Treasure Island Project/task.md",
+    "100-days-of-code/Day 3/Python Pizza/task.md",
     "Business/Journal/Technical/Migrated/assets/why-not-jwt.png",
     "Business/Journal/Technical/Migrated/assets/original.jpg",
     "Business/Journal/Technical/Migrated/assets/oYukX.jpg",

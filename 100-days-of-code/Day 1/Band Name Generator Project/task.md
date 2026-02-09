@@ -22,4 +22,4 @@ print("My name is " + name)
 [Try it out first here](https://appbrewery.github.io/python-day1-demo/)
 
 > [!info]- Archivos info del ejercicio para PyCharm
-> [[100-days-of-code/Day 1/Band Name Generator Project/task-info.yaml|task-info]] · [[100-days-of-code/Day 1/Band Name Generator Project/task-remote-info.yaml|task-remote-info]]
+> [[100-days-of-code/Day 1/Band Name Generator Project/task-info.yaml|info]] · [[100-days-of-code/Day 1/Band Name Generator Project/task-remote-info.yaml|remote-info]]
