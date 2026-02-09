@@ -13,7 +13,7 @@ Este MOC organiza todos los días donde aprendí conceptos básicos de Python: v
 Los primeros pasos en Python.
 
 - [[Day 1]] - Printing, Inputs, Variables básicas (Band Name Generator)
-- [[100]] - Data Types, Mathematical Operations, Number Manipulation
+- [[Day 2]] - Data Types, Mathematical Operations, Number Manipulation
 
 **Conceptos clave aprendidos:**
 - Variables son como cajas que guardan información
