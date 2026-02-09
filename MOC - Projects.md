@@ -8,7 +8,6 @@ Este MOC organiza todos los proyectos completos que he construido, agrupados por
 
 ---
 ## 🟢 Beginner Projects
-
 Proyectos fundamentales usando conceptos básicos de Python.
 ### 🎮 Juegos
 
@@ -20,13 +19,13 @@ Proyectos fundamentales usando conceptos básicos de Python.
 
 ### 🛠️ Utilidades y Herramientas
 
-| Día | Proyecto | Conceptos Principales | Dificultad |
-|-----|----------|----------------------|------------|
-| [[100-days-of-code/Day 1/Day 1\|Day 1]] | **Band Name Generator** | Variables, input, concatenación | ⭐ |
-| [[100-days-of-code/Day 8/Day 8\|Day 8]] | **Caesar Cipher** | Funciones, encryption, strings | ⭐⭐ |
-| [[100-days-of-code/Day 9/Day 9\|Day 9]] | **Blind Auction** | Dictionaries, clear screen | ⭐⭐ |
-| [[100-days-of-code/Day 10/Day 10\|Day 10]] | **Calculator** | Return values, recursión | ⭐⭐ |
-| [[100-days-of-code/Day 15/Day 15\|Day 15]] | **Coffee Machine (Procedural)** | Dictionaries, while loops | ⭐⭐⭐ |
+| Día                                        | Proyecto                        | Conceptos Principales           | Dificultad |
+| ------------------------------------------ | ------------------------------- | ------------------------------- | ---------- |
+| [[100-days-of-code/Day 1/Day 1\|Day 1]]    | **Band Name Generator**         | Variables, input, concatenación | ⭐          |
+| [[100-days-of-code/Day 8/Day 8\|Day 8]]    | **Caesar Cipher**               | Funciones, encryption, strings  | ⭐⭐         |
+| [[100-days-of-code/Day 9/Day 9\|Day 9]]    | **Blind Auction**               | Dictionaries, clear screen      | ⭐⭐         |
+| [[100-days-of-code/Day 10/Day 10\|Day 10]] | **Calculator**                  | Return values, recursión        | ⭐⭐         |
+| [[100-days-of-code/Day 15/Day 15\|Day 15]] | **Coffee Machine (Procedural)** | Dictionaries, while loops       | ⭐⭐⭐        |
 
 ---
 ## 🟡 Intermediate Projects
@@ -54,7 +53,7 @@ Proyectos que introducen conceptos más avanzados.
 ### Por nivel de dificultad
 ```dataview
 TABLE WITHOUT ID
-  file.link as "Día",
+  file.link as "Day",
   tags as "Tags"
 FROM "100-days-of-code"
 WHERE contains(tags, "#project") AND contains(tags, "#beginner")
