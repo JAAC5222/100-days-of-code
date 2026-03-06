@@ -69,6 +69,10 @@ GROUP BY tag
 ---
 **Última actualización**: Day 17 - Quiz Game
 
+> [!info]- Archivos info del curso para PyCharm
+> [[course-info.yaml]]
+
+
 > [!info] Documento de información para PyCharm
 > [[course-info.yaml]]
 > 
