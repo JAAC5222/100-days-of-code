@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "00c6ff452056db90",
+        "id": "e188e18a11090adf",
         "type": "tabs",
         "children": [
           {
@@ -227,6 +227,9 @@
   },
   "active": "1ad38d0ca7c6d0d8",
   "lastOpenFiles": [
+    "Dashboard.md",
+    "MOC - Python Fundamentals.md",
+    "conflict-files-obsidian-git.md",
     "100-days-of-code/Day 3/Python Pizza/tests/__pycache__",
     "100-days-of-code/Day 9/Nested Lists and Dictionaries/task.py",
     "100-days-of-code/Day 9/Nested Lists and Dictionaries/task.md",
@@ -240,7 +243,6 @@
     "100-days-of-code/Day 9/Dictionaries/solution.py",
     "100-days-of-code/Day 9/Blind Auction Project/task.md",
     "100-days-of-code/Day 9/Blind Auction Project/task-remote-info.yaml",
-    "100-days-of-code/Day 9/Blind Auction Project/task-info.yaml",
     "100-days-of-code/Day 8/Positional vs Keyword Arguments/task.md",
     "100-days-of-code/Day 8/Functions with Inputs/task.md",
     "100-days-of-code/Day 8/Caesar Cipher 3/task.md",
@@ -261,8 +263,6 @@
     "100-days-of-code/Day 5/Highest Score/task.md",
     "100-days-of-code/Day 5/For Loops with Range/task.md",
     "100-days-of-code/Day 5/For Loops/task.md",
-    "100-days-of-code/Day 3/Treasure Island Project/task.md",
-    "100-days-of-code/Day 3/Python Pizza/task.md",
     "Business/Journal/Technical/Migrated/assets/why-not-jwt.png",
     "Business/Journal/Technical/Migrated/assets/original.jpg",
     "Business/Journal/Technical/Migrated/assets/oYukX.jpg",
